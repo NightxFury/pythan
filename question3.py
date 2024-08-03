@@ -1,7 +1,9 @@
-base = float(input("Enter the base:"))
+"""
+first odd number
+"""
 
-height = float(input("Enter the height:"))
+numbers = 1
 
-area = 1/2 * (base * height)
-
-print(area)
+while numbers <= 20 :
+    numbers = numbers +2
+    print(numbers)
